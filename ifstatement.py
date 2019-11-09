@@ -1,4 +1,4 @@
-x = int (input("Please entr an integer:"))
+x = int(str(input("Please entr an integer:")))
 
 if  x < 0:
 	x = 0
@@ -9,4 +9,10 @@ elif x == 1:
 	print('Single')
 else:
 	print('More')			
-	
+
+# int - interger
+# str - string 
+# bool - boolean 
+# float - decimal
+
+

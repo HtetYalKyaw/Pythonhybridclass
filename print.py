@@ -1,1 +1,1 @@
-print()
+print(''I told that "I don't like it"'')
