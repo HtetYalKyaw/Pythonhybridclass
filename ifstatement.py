@@ -1,4 +1,4 @@
-x = int(str(input("Please entr an integer:")))
+x = int(input("Please entr an integer:"))
 
 if  x < 0:
 	x = 0

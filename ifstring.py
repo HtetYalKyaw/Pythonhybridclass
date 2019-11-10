@@ -1,6 +1,6 @@
-x = str(input("Please entr an word :"))
+x = str(input("Please entr a word :"))
 
 if x == str('Fuck'):
 	print('Please type an polite word')
-else:
+else :
 	print('Thank for typing')
