@@ -18,5 +18,5 @@ fibo.fib(10000)
 # import fibo as fi
 # fi.fib(500)
 
-# from fibo impport fib as fibonacci
+# from fibo import fib as fibonacci
 # fibonacci(500)
