@@ -78,3 +78,42 @@ for i in range(4):
 
 transposed
 
+#The del statement 
+a = [-1, 1, 66.25, 333, 333, 1234.5]
+del a[0]
+a
+
+del a[2:4]#2 to 4 ko delete 
+a 
+
+del a[1:]#1 nout ka a kone delete
+a
+
+del a[:4]#4 nout ka a kone delete
+a
+
+del a[:]
+a 
+#deleting the entire variable
+del a
+
+empty = ()
+
+singleton = 'hello', 'world'#trailing comma , comma m prr yin srr lone ko length twat
+len(singleton)
+
+
+#SETS
+ basket = {'banana', 'apple', 'cucumber', 'pineapple', 'orange', 'grape','apple','banana'}
+	print(basket)
+{'banana', 'orange', 'apple', 'grape', 'cucumber', 'pineapple'}
+
+'orange' in basket
+True
+
+'bobo' in basket
+False
+
+ a = {x for x in 'mgmgmamamyamyaayeaye' if x not in 'agye'}
+ a
+{'m'}
