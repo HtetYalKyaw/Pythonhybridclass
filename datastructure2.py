@@ -61,7 +61,7 @@ matrix = [
 for i in range (4):
 	for row on martix:
 		row[i]
-
+______________________________________________________________________
 
 transposed = []
 for i in range(4):
@@ -89,12 +89,12 @@ a
 del a[1:]#1 nout ka a kone delete
 a
 
-del a[:4]#4 nout ka a kone delete
+del a[:4]#4 shae ka a kone delete
 a
 
-del a[:]
+del a[:]#deleting the entire variable
 a 
-#deleting the entire variable
+
 del a
 
 empty = ()
@@ -117,3 +117,32 @@ False
  a = {x for x in 'mgmgmamamyamyaayeaye' if x not in 'agye'}
  a
 {'m'}
+
+# dictionary 
+tel = {'jack':4098, 'sape':4139}
+tel['guido'] = 4127
+tel
+
+tel['jack']
+
+del tel['sape']
+tel['irv'] = 4127
+tel
+
+list(tel)
+
+soted(tel)
+
+'guido' in tel
+
+'jack' in tel
+
+
+# enumerate
+for i ,v in enumerate(['tic', 'tac', 'toe']):
+	print(i, v)
+
+# items method
+
+.items()
+enumerate([])
