@@ -10,3 +10,10 @@ pytest
 requests
 sklearn
 sympy
+
+opencv-python==4.1.0.25
+opencv-python==3.9.*
+
+protobuf
+
+https://numpy.org/devdocs/user/quickstart.html
