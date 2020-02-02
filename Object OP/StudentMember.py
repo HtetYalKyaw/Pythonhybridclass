@@ -11,7 +11,7 @@ class  SchoolMember:
 		print('Name: "{}" Age:"{}"'.format(self.name, self.age),end="")
 
 class Teacher(SchoolMember):
-		'''Represents a student'''
+
 	def __init__(self, name, age, marks):
 		SchoolMember.__init__(self, name, age)
 		self.marks = marks 
@@ -22,7 +22,7 @@ class Teacher(SchoolMember):
 		print('Marks: "{:d}"'.format(self.marks))				
 
 class Student(SchoolMember):
-		'''Represents a student'''
+
 	def __init__(self, name, age , marks):
 		SchoolMember.__init__(self, name, age)
 		self.marks = marks

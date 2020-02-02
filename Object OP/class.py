@@ -1,4 +1,3 @@
-Classes 
 
 class Person:
 	pass #An empty block
@@ -28,8 +27,7 @@ class Person:
 		print('Hello, my name is ', self.name)
 
 p = Person('Swarrop')
-p.say_hi()		
----------------------
+p.say_hi()
 
 
 class  SchoolMember:
