@@ -6,7 +6,7 @@ def tree (size, myTurtle):
 
 	if size < random.randint(1,2) * 20:
 		myTurtle.color("green")
-	else:cd
+	else:
 		myTurtle.color("blue")
 
 	if size > 5:
